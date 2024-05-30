@@ -38,7 +38,7 @@ function App() {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={photo} />
       </Helmet> */}
-      <Helmet>
+      <Helmet htmlAttributes>
         <meta
           name="twitter:title"
           content="Error 404 | Canal Oficial FC Barcelona"
