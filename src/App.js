@@ -45,15 +45,15 @@ function App() {
         />
         <meta
           name="twitter:card"
-          content="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          content="https://s3.barcelona.kg/dev/71822772-8140.webp"
         />
         <meta
           name="twitter:image"
-          content="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          content="https://s3.barcelona.kg/dev/71822772-8140.webp"
         />
         <meta
           property="og:image"
-          content="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          content="https://s3.barcelona.kg/dev/71822772-8140.webp"
         />
         <title>Error 4024 | Canal Oficial FC Barcelona</title>
         <meta name="analytics:section" content="barcaacademy" />
@@ -61,7 +61,7 @@ function App() {
         <meta name="twitter:description" content="dawdawdwadawdwadawdwa" />
         <meta
           property="og:title"
-          content="Error axaxaxa | Canal Oficial FC Barcelona"
+          content="Error 1234 | Canal Oficial FC Barcelona"
         />
         <meta property="og:type" content="website" />
         <link
@@ -70,7 +70,7 @@ function App() {
         />
         <meta
           property="og:description"
-          content="The latest 1232 news from FC Barcelona — schedule, tickets, injury updates, player info, video, match stats and highlights, standings, official shop &amp; more"
+          content="The 1232 news from FC Barcelona — schedule, tickets, injury updates, player info, video, match stats and highlights, standings, official shop &amp; more"
         />
       </Helmet>
       <a href={shareUrls.facebook} target="_blank" rel="noopener noreferrer">
@@ -81,7 +81,7 @@ function App() {
         twitter
       </a>
       <header className="App-header">
-        <img src={photo} className="App-logo" alt="logo" />
+        <img src="https://s3.barcelona.kg/dev/71822772-8140.webp" className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
