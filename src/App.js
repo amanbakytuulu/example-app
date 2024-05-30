@@ -7,7 +7,8 @@ function App() {
 
   const title = "title for openGraph";
   const description = "Description for OpenGraph";
-  const photo = "https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+  const photo =
+    "https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500";
 
   const shareUrls = {
     facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
@@ -20,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <Helmet>
+      {/* <Helmet>
         <title>example App </title>
         <meta name="description" content="Web site for examples" />
         <meta property="og:url" content={currentUrl} />
@@ -36,6 +37,41 @@ function App() {
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={photo} />
+      </Helmet> */}
+      <Helmet>
+        <meta
+          name="twitter:title"
+          content="Error 404 | Canal Oficial FC Barcelona"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:image"
+          content="https://www.fcbarcelona.com/resources/v.2.85.0-5882/i/elements/fcb-share.png"
+        />
+        <meta
+          property="og:image"
+          content="https://www.fcbarcelona.com/resources/v.2.85.0-5882/i/elements/fcb-share.png"
+        />
+        <title>Error 404 | Canal Oficial FC Barcelona</title>
+        <meta property="og:type" content="website" />
+        <meta name="analytics:section" content="barcaacademy" />
+        <meta name="twitter:site" content="@FCB" />
+        <meta
+          name="twitter:description"
+          content="The latest news from FC Barcelona — schedule, tickets, injury updates, player info, video, match stats and highlights, standings, official shop &amp; more"
+        />
+        <meta
+          property="og:title"
+          content="Error 404 | Canal Oficial FC Barcelona"
+        />
+        <link
+          rel="canonical"
+          href="https://barcaacademy.fcbarcelona.com/en/club/news/3943725/pau-cubarsi-and-rafa-yuste-present-barca-academy-world-cup-trophies"
+        />
+        <meta
+          property="og:description"
+          content="The latest news from FC Barcelona — schedule, tickets, injury updates, player info, video, match stats and highlights, standings, official shop &amp; more"
+        />
       </Helmet>
       <a href={shareUrls.facebook} target="_blank" rel="noopener noreferrer">
         Facebook
