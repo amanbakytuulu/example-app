@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { Helmet } from "react-helmet";
+import photo from "./photo.png";
 
 function App() {
   const currentUrl = window.location.href;
 
   const title = "title for openGraph";
+  const description = "Description for OpenGraph";
 
   const shareUrls = {
     facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
@@ -22,21 +24,25 @@ function App() {
         <meta property="og:url" content={currentUrl} />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={title} />
-        <meta property="og:description" content="description for openGraph" />
+        <meta property="og:description" content={description} />
         <meta
           property="og:image"
-          content="https://st2.depositphotos.com/2001755/5408/i/450/depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg"
+          content={photo}
         />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <title>example App </title>
+        <meta name="description" content="Web site for examples" />
       </Helmet>
       <a href={shareUrls.facebook} target="_blank" rel="noopener noreferrer">
         Facebook
       </a>
       <br />
       <a href={shareUrls.twitter} target="_blank" rel="noopener noreferrer">
-      twitter
+        twitter
       </a>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={photo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
