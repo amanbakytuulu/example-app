@@ -41,36 +41,36 @@ function App() {
       <Helmet htmlAttributes>
         <meta
           name="twitter:title"
-          content="Error 404 | Canal Oficial FC Barcelona"
+          content="Error 555 | Canal Oficial FC Barcelona"
         />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:card"
+          content="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        />
         <meta
           name="twitter:image"
-          content="https://www.fcbarcelona.com/resources/v.2.85.0-5882/i/elements/fcb-share.png"
+          content="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
         />
         <meta
           property="og:image"
-          content="https://www.fcbarcelona.com/resources/v.2.85.0-5882/i/elements/fcb-share.png"
+          content="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
         />
-        <title>Error 404 | Canal Oficial FC Barcelona</title>
-        <meta property="og:type" content="website" />
+        <title>Error 4024 | Canal Oficial FC Barcelona</title>
         <meta name="analytics:section" content="barcaacademy" />
         <meta name="twitter:site" content="@FCB" />
-        <meta
-          name="twitter:description"
-          content="The latest news from FC Barcelona — schedule, tickets, injury updates, player info, video, match stats and highlights, standings, official shop &amp; more"
-        />
+        <meta name="twitter:description" content="dawdawdwadawdwadawdwa" />
         <meta
           property="og:title"
-          content="Error 404 | Canal Oficial FC Barcelona"
+          content="Error axaxaxa | Canal Oficial FC Barcelona"
         />
+        <meta property="og:type" content="website" />
         <link
           rel="canonical"
           href="https://barcaacademy.fcbarcelona.com/en/club/news/3943725/pau-cubarsi-and-rafa-yuste-present-barca-academy-world-cup-trophies"
         />
         <meta
           property="og:description"
-          content="The latest news from FC Barcelona — schedule, tickets, injury updates, player info, video, match stats and highlights, standings, official shop &amp; more"
+          content="The latest 1232 news from FC Barcelona — schedule, tickets, injury updates, player info, video, match stats and highlights, standings, official shop &amp; more"
         />
       </Helmet>
       <a href={shareUrls.facebook} target="_blank" rel="noopener noreferrer">
