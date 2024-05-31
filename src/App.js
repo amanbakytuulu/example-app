@@ -45,15 +45,15 @@ function App() {
         />
         <meta
           name="twitter:card"
-          content="https://s3.barcelona.kg/dev/71822772-8140.webp"
+          content="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
         />
         <meta
           name="twitter:image"
-          content="https://s3.barcelona.kg/dev/71822772-8140.webp"
+          content="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
         />
         <meta
           property="og:image"
-          content="https://s3.barcelona.kg/dev/71822772-8140.webp"
+          content="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
         />
         <title>Error 4024 | Canal Oficial FC Barcelona</title>
         <meta name="analytics:section" content="barcaacademy" />
