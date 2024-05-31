@@ -38,7 +38,7 @@ function App() {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={photo} />
       </Helmet> */}
-      {/* <Helmet>
+      <Helmet async>
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@FCB" />
         <meta
@@ -68,7 +68,7 @@ function App() {
           property="og:image"
           content="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
         />
-      </Helmet> */}
+      </Helmet>
       <a href={shareUrls.facebook} target="_blank" rel="noopener noreferrer">
         Facebook
       </a>
