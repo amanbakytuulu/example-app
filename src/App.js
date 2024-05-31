@@ -38,7 +38,7 @@ function App() {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={photo} />
       </Helmet> */}
-      <Helmet async>
+      <Helmet async defer>
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@FCB" />
         <meta
