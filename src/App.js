@@ -38,41 +38,37 @@ function App() {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={photo} />
       </Helmet> */}
-      {/* <Helmet htmlAttributes>
+      <Helmet htmlAttributes>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@FCB" />
         <meta
           name="twitter:title"
-          content="Error 555 | Canal Oficial FC Barcelona"
+          content="twitter 555 | Canal Oficial FC Barcelona"
         />
-        <meta
-          name="twitter:card"
-          content="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-        />
+        <meta name="twitter:description" content="dawdawdwadawdwadawdwa" />
         <meta
           name="twitter:image"
           content="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
         />
-        <meta
-          property="og:image"
-          content="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-        />
-        <title>Error 4024 | Canal Oficial FC Barcelona</title>
-        <meta name="analytics:section" content="barcaacademy" />
-        <meta name="twitter:site" content="@FCB" />
-        <meta name="twitter:description" content="dawdawdwadawdwadawdwa" />
+
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Error 1234 | Canal Oficial FC Barcelona"
-        />
-        <meta property="og:type" content="website" />
-        <link
-          rel="canonical"
-          href="https://barcaacademy.fcbarcelona.com/en/club/news/3943725/pau-cubarsi-and-rafa-yuste-present-barca-academy-world-cup-trophies"
+          content="facebook 1234 | Canal Oficial FC Barcelona"
         />
         <meta
           property="og:description"
           content="The 1232 news from FC Barcelona — schedule, tickets, injury updates, player info, video, match stats and highlights, standings, official shop &amp; more"
         />
-      </Helmet> */}
+        <meta
+          property="og:url"
+          content="https://example-app-rho-ochre.vercel.app"
+        />
+        <meta
+          property="og:image"
+          content="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        />
+      </Helmet>
       <a href={shareUrls.facebook} target="_blank" rel="noopener noreferrer">
         Facebook
       </a>
@@ -81,7 +77,11 @@ function App() {
         twitter
       </a>
       <header className="App-header">
-        <img src="https://s3.barcelona.kg/dev/71822772-8140.webp" className="App-logo" alt="logo" />
+        <img
+          src="https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          className="App-logo"
+          alt="logo"
+        />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
