@@ -38,7 +38,7 @@ function App() {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={photo} />
       </Helmet> */}
-      <Helmet htmlAttributes>
+      {/* <Helmet htmlAttributes>
         <meta
           name="twitter:title"
           content="Error 555 | Canal Oficial FC Barcelona"
@@ -72,7 +72,7 @@ function App() {
           property="og:description"
           content="The 1232 news from FC Barcelona — schedule, tickets, injury updates, player info, video, match stats and highlights, standings, official shop &amp; more"
         />
-      </Helmet>
+      </Helmet> */}
       <a href={shareUrls.facebook} target="_blank" rel="noopener noreferrer">
         Facebook
       </a>
